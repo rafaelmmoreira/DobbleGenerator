@@ -11,7 +11,7 @@ This piece of code is a just-for-fun attempt at implementing the algorithm descr
 
 I opted to implement the "grid" algorithm, rather than the fixed intervals one, but both yield the same results. The algorithm itself is very simple and consists of a few for loops adding symbols to each card.
 
-Most of the code are functions using PIL to draw the cards and export them as PNG. I'll attempt to generate a PDF file with several cards per page to make it easier to print.
+Most of the code are functions using [PIL] (https://pypi.org/project/Pillow/) (required) to draw the cards and export them as PNG. I'll attempt to generate a PDF file with several cards per page to make it easier to print.
 
 ## How to use the program
 Just add 57 different images to the "img" folder. I included some sample emojis from a pack made by Adrian Garza. Once you're good to go, just run the code and it should create a "cards" folder with 57 different PNGs. It's up to you whether to use all 57 cards or ditch two random ones to make it more like the real game.
